@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,800");
+:root {
+  font-size: 14px; }
+
+/* use
+
+ .selector {
+  color: red;
+
+  @include breakpoint('small') {
+    color: blue;
+  }
+}
+
+  */
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+* img {
+  width: 75%;
+  max-height: 5%;
+  object-fit: cover;
+  transition: all 1s ease;
+  box-shadow: 0 1.1px 5px 0 rgba(0, 0, 0, 0.5); }
+  * img:hover {
+    -webkit-filter: grayscale(100%); }
+
+body {
+  background-image: url("../img/skillcrush_computer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute; }
+
+.container {
+  max-width: 1079px;
+  border-top: 1rem solid #45ac9d;
+  position: relative; }
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  color: #3b3b3b;
+  padding: 1.3rem 1.3rem;
+  background-color: #fbfbfb; }
+  main .heading h1, main .heading h2 {
+    font-weight: 800;
+    font-size: 2.1rem; }
+  main .about {
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1rem; }
+    main .about .SkillCrush {
+      text-decoration: underline;
+      font-weight: 600; }
+  main button {
+    background-color: #45ac9d;
+    color: #fbfbfb;
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: 600; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
