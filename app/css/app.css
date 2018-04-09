@@ -40,13 +40,11 @@ ul {
 body {
   background-image: url("../img/skillcrush_computer.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute; }
+  background-size: cover; }
 
 .container {
   max-width: 1079px;
-  border-top: 1rem solid #45ac9d;
-  position: relative; }
+  border-top: 1rem solid #45ac9d; }
 
 main {
   display: grid;
