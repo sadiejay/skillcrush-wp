@@ -1,0 +1,18 @@
+:root {
+	font-size: 14px;
+}
+
+@import "index";
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}

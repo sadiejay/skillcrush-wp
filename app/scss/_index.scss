@@ -1,0 +1,54 @@
+@import "var";
+
+body {
+  background-image:
+    url("../img/skillcrush_computer.png");
+    //background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+  }
+
+.container {
+  max-width: 1079px;
+  border-top: 1rem solid $blue;
+  position: relative;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  color: $grey;
+  padding: 1.3rem 1.3rem;
+  background-color: $white;
+
+  .heading {
+
+    h1, h2{
+    font-weight: 800;
+    font-size: 2.1rem;
+    }
+  }
+
+  .about {
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+
+    .SkillCrush {
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
+
+  button {
+    background-color: $blue;
+    color: $white;
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
